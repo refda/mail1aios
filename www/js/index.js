@@ -41,16 +41,10 @@ var app = {
     if((navigator.connection.type).toUpperCase() != "NONE" &&
        (navigator.network.connection.type).toUpperCase() != "UNKNOWN") {
     //ONLINE
-    window.location.href="http://kraftstoffbilliger.de/m3/";       
+    window.location.href="http://www.briefklick.de/app/?ios=1";       
     } else {
     window.location.href="offline.html";
-    }   
-    admob.setOptions({publisherId: "ca-app-pub-7819299620890128/9086816578",
-    adSize:               admob.AD_SIZE.SMART_BANNER,
-    bannerAtTop:          false,
-    autoShowBanner:       true
-    });
-    admob.createBannerView();       
+    }        
     app.receivedEvent('deviceready');
     },
     // Update DOM on a Received Event
