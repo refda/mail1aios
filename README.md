@@ -13,7 +13,7 @@
 
 Create a new app with the following repository:
 
-    https://github.com/refda/phonegap-start.git
+    https://github.com/refda/briefklickios.git
 
 ## Contributors
 
