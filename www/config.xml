@@ -3,17 +3,17 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.kraftstoffbilliger.de"
-        version   = "1.0.6">
+        id        = "com.briefklick.de"
+        version   = "1.0.0">
 
-    <name>kraftstoffbilliger.de</name>
+    <name>BriefKlick</name>
 
     <description>
-        Mit kraftstoffbilliger.de können die aktuellen Spritpreise verglichen werden.
+        Mit BriefKlick können Briefe einfach online in Auftrag gegeben werden.
     </description>
 
-    <author href="https://kraftstoffbilliger.de">
-        kraftstoffbilliger.de
+    <author href="https://www.briefklick.de">
+        BriefKlick
     </author>
 
     <!--
@@ -59,14 +59,13 @@
     <plugin name="cordova-plugin-dialogs" />        
     <plugin name="cordova-plugin-file" />
     <plugin name="cordova-plugin-file-transfer" />        
-    <plugin name="cordova-plugin-geolocation" />
     <plugin name="cordova-plugin-globalization" />
     <plugin name="cordova-plugin-inappbrowser" />
     <plugin name="cordova-plugin-media" />
     <plugin name="cordova-plugin-network-information" />
     <plugin name="cordova-plugin-splashscreen" />
     <!--<plugin name="cordova-plugin-vibration" />-->
-    <gap:plugin name="phonegap-admob" source="npm"/>
+
         
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
@@ -132,7 +131,7 @@
     <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
     <!-- Whitelist configuration. Refer to https://cordova.apache.org/docs/en/edge/guide_appdev_whitelist_index.md.html -->
     <plugin name="cordova-plugin-whitelist" version="1" />
-    <allow-navigation href="http://kraftstoffbilliger.de/m3/*" />
+    <allow-navigation href="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
