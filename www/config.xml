@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.briefklick.de"
-        version   = "1.0.3">
+        version   = "1.0.4">
 
     <name>BriefKlick</name>
 
@@ -111,7 +111,7 @@
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg"      gap:platform="winphone" />
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-    <string>300</string>
+    <string>400</string>
     </gap:config-file>
 
     <!--
