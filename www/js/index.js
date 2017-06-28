@@ -41,7 +41,7 @@ var app = {
     if((navigator.connection.type).toUpperCase() != "NONE" &&
        (navigator.network.connection.type).toUpperCase() != "UNKNOWN") {
     //ONLINE
-    window.location.href="http://mail1a.de/m/?ios=1";       
+    window.location.href="http://mail1a.de/mios/?ios=1";       
     } else {
     window.location.href="offline.html";
     }   
